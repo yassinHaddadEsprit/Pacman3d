@@ -1,0 +1,396 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'fr' Physical Memory: 7893 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/yhadd/packman 3d
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52092
+Successfully changed project path to: C:/Users/yhadd/packman 3d
+C:/Users/yhadd/packman 3d
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12548] Host "[IP] 172.19.176.1 [Port] 0 [Flags] 2 [Guid] 811131198 [EditorId] 811131198 [Version] 1048832 [Id] WindowsEditor(7,YASSIN-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12548] Host "[IP] 172.19.176.1 [Port] 0 [Flags] 2 [Guid] 811131198 [EditorId] 811131198 [Version] 1048832 [Id] WindowsEditor(7,YASSIN-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 275.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yhadd/packman 3d/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   27.21.14.6221
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014315 seconds.
+- Loaded All Assemblies, in  0.599 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 351 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1315ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (222ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (718ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (491ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.495 seconds
+Refreshing native plugins compatible for Editor in 11.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.957 seconds
+Domain Reload Profiling: 2440ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (1217ms)
+		LoadAssemblies (681ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (643ms)
+			TypeCache.Refresh (592ms)
+				TypeCache.ScanAssembly (469ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (958ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (721ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 12.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (72.3 KB). Loaded Objects now: 4498.
+Memory consumption went from 146.0 MB to 145.9 MB.
+Total: 9.926900 ms (FindLiveObjects: 0.418900 ms CreateObjectMapping: 0.217100 ms MarkObjects: 9.054900 ms  DeleteObjects: 0.234100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 269477.595831 seconds.
+  path: Assets/_ChompMan-PM/Audio/audioblocks-boss-fight_HNruquncL.wav
+  artifactKey: Guid(2d233e167baa8ac4b818ddc811b0d842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/audioblocks-boss-fight_HNruquncL.wav using Guid(2d233e167baa8ac4b818ddc811b0d842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4c7895f3a7c4caa239dc234290992c') in 0.117786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.511830 seconds.
+  path: Assets/_ChompMan-PM/Audio/Music
+  artifactKey: Guid(945a7b3316a9f0d45a39f66b06ddf868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/Music using Guid(945a7b3316a9f0d45a39f66b06ddf868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0635c48bf9c3f7af887c9965dd848608') in 0.000647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013097 seconds.
+  path: Assets/_ChompMan-PM/Audio/Music/PM - game_start.wav
+  artifactKey: Guid(3940da68f41088a439d68108440e57d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/Music/PM - game_start.wav using Guid(3940da68f41088a439d68108440e57d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84c3cf211326eb5976be926c17eef40') in 0.016081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_ChompMan-PM/Audio/Music/SOUNDDOGS_840872__vi.wav
+  artifactKey: Guid(b34a568a12bb6ca46b4deb775919cb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/Music/SOUNDDOGS_840872__vi.wav using Guid(b34a568a12bb6ca46b4deb775919cb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f137055fbb4a87b6e987611a6da374') in 0.019326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 77.622236 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX
+  artifactKey: Guid(45491b174cab2b94a9405d1797b286a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX using Guid(45491b174cab2b94a9405d1797b286a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d583aaf3c89f80093e72a24550d9d55') in 0.000769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049342 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/PM - credit.wav
+  artifactKey: Guid(2e6d36960e555ac4cb14c82ff9579456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/PM - credit.wav using Guid(2e6d36960e555ac4cb14c82ff9579456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5f722bcd5e87e329883e16a68a0db7') in 0.022050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002098 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/PM - death_2.wav
+  artifactKey: Guid(08f841a368a8b45468cb51b0b02c2a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/PM - death_2.wav using Guid(08f841a368a8b45468cb51b0b02c2a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86411594630c304d7e8c77f4536df17') in 0.025479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001478 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/PM - eat_ghost.wav
+  artifactKey: Guid(3a27efeab14cbfd4ebd70d0f3c372637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/PM - eat_ghost.wav using Guid(3a27efeab14cbfd4ebd70d0f3c372637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76f5b4e54af06da936c63b7ab1f61ae') in 0.030673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/PM - munch_1.wav
+  artifactKey: Guid(bd30d9b67167e9740907662860d682ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/PM - munch_1.wav using Guid(bd30d9b67167e9740907662860d682ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76d3a40ba117799e97dc4406bf3de9d') in 0.033065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011734 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/PM - munch_2.wav
+  artifactKey: Guid(4a17b36155c8f38448424cb13ef0de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/PM - munch_2.wav using Guid(4a17b36155c8f38448424cb13ef0de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb8b7c53e04008d34ed310523f21c78') in 0.011551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/PM - retreating.wav
+  artifactKey: Guid(97e64a4ec30a3b54684c22c22ce89bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/PM - retreating.wav using Guid(97e64a4ec30a3b54684c22c22ce89bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f57d0f18fed34e985e3220d79c15df') in 0.026990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/PM - siren_2.wav
+  artifactKey: Guid(01269163de7b7b5439a1ae85e3a86e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/PM - siren_2.wav using Guid(01269163de7b7b5439a1ae85e3a86e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c6d3c5ec0f50271df6688317aab347') in 0.027663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007712 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/PM - siren_5.wav
+  artifactKey: Guid(465a8d31e7befb74b8645836ac84645b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/PM - siren_5.wav using Guid(465a8d31e7befb74b8645836ac84645b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f74668cc616d9c7fec8d253e2ce39b') in 0.021960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/PM - siren_3.wav
+  artifactKey: Guid(4c4205907202a064b8bc77a00179dd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/PM - siren_3.wav using Guid(4c4205907202a064b8bc77a00179dd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e53908d70f81a60202faa30a290bc9') in 0.023460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/SOUNDDOGS_319257__ar.wav
+  artifactKey: Guid(f8b726cd7b48c4a41acebdfc4897450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/SOUNDDOGS_319257__ar.wav using Guid(f8b726cd7b48c4a41acebdfc4897450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1239890c41309e19d3d049335915ed') in 0.025174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000998 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/SOUNDDOGS_319263__ar.wav
+  artifactKey: Guid(3356da2a7b94ff5489fa0e646a78e562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/SOUNDDOGS_319263__ar.wav using Guid(3356da2a7b94ff5489fa0e646a78e562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6b069b8e96b86099ae7c5721b4af85') in 0.013846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_ChompMan-PM/Audio/FX/SOUNDDOGS_319264_ar.wav
+  artifactKey: Guid(3e84bfebc1867c84fb81d50822dc9f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/FX/SOUNDDOGS_319264_ar.wav using Guid(3e84bfebc1867c84fb81d50822dc9f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c24409ac18a0ba1dec63df84fb3fa8a') in 0.045907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 96.461117 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/Ghost_MAT.mat
+  artifactKey: Guid(07a319e011269d640bd54c8681787d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/Ghost_MAT.mat using Guid(07a319e011269d640bd54c8681787d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080e98972f03d367d383b7e2d172c020') in 1.414282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/ScaredGhost_MAT.mat
+  artifactKey: Guid(c31e5fac1beb02f4e8774fb2e51e87a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/ScaredGhost_MAT.mat using Guid(c31e5fac1beb02f4e8774fb2e51e87a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3aacf6696c97d98975ac385c9c0a59') in 0.326356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/GhostOrange_MAT.mat
+  artifactKey: Guid(70ba22ec1dded714d89bcdab0542907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/GhostOrange_MAT.mat using Guid(70ba22ec1dded714d89bcdab0542907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f23f6161ec88cfa9ef2e74371f419f') in 0.232112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 5.029119 seconds.
+  path: Assets/_ChompMan-PM/Materials/Enviornment/Stage_MAT.mat
+  artifactKey: Guid(d97a11d98a41c9b4487a6add7112e6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Enviornment/Stage_MAT.mat using Guid(d97a11d98a41c9b4487a6add7112e6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb7262d74f358c18818c16ae8fff2cb') in 0.443277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_ChompMan-PM/Materials/Enviornment/Stage_Neon_MAT.mat
+  artifactKey: Guid(21b6e2494efdd644693fce60cbcdfc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Enviornment/Stage_Neon_MAT.mat using Guid(21b6e2494efdd644693fce60cbcdfc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1886e7a18a80609522cc881e1c26879d') in 0.558311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_ChompMan-PM/Materials/Enviornment/StageGround_MAT.mat
+  artifactKey: Guid(6e9133f69a2e8fb46b8a553802962f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Enviornment/StageGround_MAT.mat using Guid(6e9133f69a2e8fb46b8a553802962f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8724d8c0c2e16dca1b581b3e289cdeb') in 0.246222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.099290 seconds.
+  path: Assets/_ChompMan-PM/Materials/Props/PowerPellet_MAT.mat
+  artifactKey: Guid(ff85b959d18aea5498572609247ff7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Props/PowerPellet_MAT.mat using Guid(ff85b959d18aea5498572609247ff7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd5b9676d11464cb32bea1918039f8a') in 0.094022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_ChompMan-PM/Materials/Props/PowerPellet_Rot_MAT.mat
+  artifactKey: Guid(53c2ae58f736fee4a829bd911ee1fb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Props/PowerPellet_Rot_MAT.mat using Guid(53c2ae58f736fee4a829bd911ee1fb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601bb69c340075f0d141b8c85de6a2a1') in 0.157887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 16.135982 seconds.
+  path: Assets/_ChompMan-PM/Mesh/Characters/Ghost_Mesh.fbx
+  artifactKey: Guid(cd46c4c845d21ed4690627267f2edc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Mesh/Characters/Ghost_Mesh.fbx using Guid(cd46c4c845d21ed4690627267f2edc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8187a1c275afe887afddb51648db41') in 0.734344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
